@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #Replace BashRC
-cp -f .bashrc ~
-sudo cp -f .bashrc /root/.bashrc
+cp -f bashrc ~/.bashrc
+sudo cp -f bashrc /root/.bashrc
 
 #Deac. Login MOTD
 touch ~/.hushlogin
